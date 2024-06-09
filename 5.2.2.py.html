@@ -1,0 +1,8 @@
+num = int(input("Enter the number of elements in the array: "))
+array = []
+print("Enter the elements of the array:")
+for i in range(num):
+    element = int(input(f"Element {i + 1}: "))
+    array.append(element)
+array.sort()
+print("Sorted array in ascending order:", array)

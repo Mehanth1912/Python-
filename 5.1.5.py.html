@@ -1,0 +1,19 @@
+import math
+
+num= int(input("Enter the number of elements in the array: "))
+array = []
+print("Enter the elements of the array:")
+for i in range(num):
+    element = float(input(f"Element {i + 1}: "))
+    array.append(element)
+
+total = sum(array)
+mean = total/ num
+
+squared = sum((x - mean) ** 2 for x in array)
+variance = squared / num
+deviation = math.sqrt(variation = math.sqrt(variance)
+
+print(f"Mean: {mean}")
+print(f"Variance: {variance}")
+print(f"Standard Deviation: {deviation}")

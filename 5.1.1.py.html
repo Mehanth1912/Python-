@@ -1,0 +1,8 @@
+array = []
+elements = int(input("Enter the number of elements you want to store in the array: "))
+for i in range(elements):
+    element1 = input(f"Enter element {i + 1}: ")
+    array.append(element1)
+print("The elements in the array are:")
+for i, element1 in enumerate(array):
+    print(f"Element {i + 1}: {element1}")

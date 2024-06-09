@@ -1,0 +1,12 @@
+elements = int(input("Enter the number of elements in the array: \n"))
+array = []
+print("Enter the elements of the array:\n")
+for i in range(elements):
+    element1 = int(input(f"Element {i + 1}: "))
+    array.append(element1)
+
+largest = max(array)
+smallest = min(array)
+
+print(f"The largest element is: {largest}")
+print(f"The smallest element is: {smallest}")

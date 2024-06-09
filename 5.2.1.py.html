@@ -1,0 +1,11 @@
+elements = int(input("Enter the number of elements in the array: "))
+array = []
+print("Enter the elements of the array:")
+for i in range(elements):
+    element = input(f"Element {i + 1}: ")
+    array.append(element)
+unique= set(array)
+list = list(unique)
+print("Unique elements in the array:")
+for element in list:
+    print(element)

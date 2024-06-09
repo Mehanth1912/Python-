@@ -1,0 +1,12 @@
+num = int(input("Enter the number of elements in the array: "))
+array = []
+print("Enter the elements of the array:")
+for i in range(num):
+    element = input(f"Element {i + 1}: ")
+    array.append(element)
+search = input("Enter the element to search for: ")
+if search in array:
+    position = array.index(search) + 1
+    print(f"Element '{search}' is found at position {position}.")
+else:
+    print(f"Element '{search}' is not found in the array.")
